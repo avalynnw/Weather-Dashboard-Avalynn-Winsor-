@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+
+
+<body>
+    <header class="hero">
+      <h1>Weather Dashboard</h1>
+    </header>
+  
+  
+    <main>
+        <div class="container">
+            <div class="row">
+              <div id="search_and_results" class="col-12 col-md-4">
+                <h3>Search for a City:</h3>
+                <form id="search-form" class="mb-2">
+                    <input id="search_input" class="form-input w-100" type="text" value="San Diego">
+                    <button id="search_button"class="btn">Search</button>
+                  </form>
+              </div>
+              <ul id="full_display_box" class="col-12 col-md-8">
+                <ul id="display_box">
+                </ul>
+              </ul>
+
+
+
+            </div>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </main>
+
+</body>
+
+</html>
